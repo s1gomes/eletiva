@@ -1,0 +1,14 @@
+insert into empresa(nome, cnpj, responsavel, telefone, email) values
+('loja 2', '234234235', 'Márcia', '9299814578', 'gmail@email.com');
+
+select * from empresa
+
+insert into produto(nome, unidade, quantidade, preco) values
+('arroz', 'kg', '23', '12.25');
+
+select * from produto
+
+insert into fornecedor(nome, cnpj, responsavel, representante, telefone, email, cep, logradouro, numeroEndereco, bairro, cidade, uf, dataInformacao) values
+('loja 3', '89789465', 'Goiana', 'Fernanda', '95991147856', 'gmail@email.com', '64587882', 'Rua A', '12', 'Centro', 'Rio de Janeiro', 'RJ', '14/10/2022');
+
+select * from fornecedor
